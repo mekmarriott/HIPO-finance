@@ -1,0 +1,10 @@
+applications:
+- services:
+  - tradeoff_analytics_hipo
+- disk_quota: 2048M
+  host: hipo-finance
+  name: hipo-finance
+  path: .
+  domain: eu-gb.mybluemix.net
+  instances: 1
+  memory: 512M
